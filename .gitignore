@@ -1,0 +1,38 @@
+# --- Unity Folders (Universal) ---
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+
+# --- Entitas / Jenny Specific ---
+# Игнорируем персональные настройки генератора (пути к SDK и т.д.)
+*.properties.user
+**/Jenny/Server/
+**/Jenny/Status/
+
+# --- Assets specific paths ---
+**/[Aa]ssets/Plugins/Editor/JetBrains*
+**/[Aa]ssets/[Aa]ddressable[Aa]dssets[Dd]ata/*/*.bin*
+**/[Aa]ssets/[Ss]treamingAssets/aa.meta
+**/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# --- Root & IDE files ---
+.vs/
+.gradle/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.unitypackage
+*.unitypackage.meta
+
+# Log files
+*.log
+sysinfo.txt
